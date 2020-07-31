@@ -146,5 +146,5 @@ void main() {
   print("fprint (\"string\") prints the string in monospaced font.");
   print("fprint (\"string\", \"color\") prints the string in monospaced font with the named html color.");
   print("bigprint (\"string\") prints the string in a large, block-rendered ASCII-style font. Characters are currently limited to A-Z, space and '*'.");
-  print("fprint (\"string\", \"color\") prints the string in a large, block-rendered ASCII-style font with the named html color.");
+  print("bigprint (\"string\", \"color\") prints the string in a large, block-rendered ASCII-style font with the named html color.");
 }
