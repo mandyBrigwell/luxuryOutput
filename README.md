@@ -28,7 +28,7 @@ prints the string in a large, block-rendered ASCII-style font with the named htm
 
 Currently only hardcoded to support A-Z, a space, and an asterisk.
 
-#To Do
+# To Do
 
 ## Remove the switch command
 
