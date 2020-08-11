@@ -57,6 +57,30 @@ boolean luxuryOutputBig(string theMessage) {
 	return true;
 }
 
+// For compatibility with initial release
+boolean fprint(string toPrint) {
+	luxuryOutputMono(toPrint);
+	return true;
+	}
+
+// For compatibility with initial release	
+boolean fprint(string toPrint, string theColour) {
+	luxuryOutputMono(toPrint, theColour);
+	return true;
+	}
+
+// For compatibility with initial release
+boolean bigprint(string toPrint) {
+	luxuryOutputBig(toPrint);
+	return true;
+	}
+
+// For compatibility with initial release	
+boolean bigprint(string toPrint, string theColour) {
+	luxuryOutputBig(toPrint, theColour);
+	return true;
+	}
+		
 void main() {
 luxuryOutputBig("Luxury Output: Usage");
 
@@ -82,5 +106,4 @@ print();
 print("Printing a message in a large, monospaced font with colour.");
 luxuryoutputMono("> luxuryOutputBig(string, colour)");
 luxuryOutputBig("Example.", "green");
-
 }
