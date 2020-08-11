@@ -5,39 +5,19 @@ Jazz up your CLI in KOL…
 
 import <luxuryOutput.ash>
 
-## fprint
+## luxuryOutputMono
 
-fprint ("string")
+luxuryOutputMono ("string")
 prints the string in monospaced font.
 
-fprint ("string", "color")
+luxuryOutputMono ("string", "color")
 prints the string in monospaced font with the named html color.
 
-## bigprint
+## luxuryOutputBig
 
-bigprint ("string")
+luxuryOutputBig ("string")
 prints the string in a large, block-rendered ASCII-style font.
 Characters are currently limited to A-Z, space and an asterisk.
 
-bigprint ("string", "color")
+luxuryOutputBig ("string", "color")
 prints the string in a large, block-rendered ASCII-style font with the named html color.
-
-# Limitations
-
-## Character Set
-
-Currently only hardcoded to support A-Z, a space, and an asterisk.
-
-# To Do
-
-## Remove the switch command
-
-It would be more efficient to simply match the character's position in a reference string, and fairly simple to do.
-
-## Increase Character Set
-
-If we could get the unicode number of a character from an ash function, things would be simpler. As it is, the characters are currently hard-coded into a switch command. See above.
-
-## Alternate fonts
-
-The current one is designed to attract attention, and (LOOK AT MY FEROCIOUSLY-BLACK ALL CAPS!) it does that. A slightly-less in-one's-face version may be possible.
