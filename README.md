@@ -21,3 +21,7 @@ Characters are currently limited to A-Z, space and an asterisk.
 
 luxuryOutputBig ("string", "color")
 prints the string in a large, block-rendered ASCII-style font with the named html color.
+
+## Compatibility
+
+The previous functions, fprint() and bigprint() are still usable; they redirect to the newly-named functions.
