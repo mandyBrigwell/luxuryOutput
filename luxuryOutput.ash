@@ -49,11 +49,13 @@ boolean renderPrint(string messageToDisplay, string messageColour) {
 
 boolean luxuryOutputBig(string theMessage, string messageColour) {
 	renderPrint(theMessage, messageColour);
+	logprint(theMessage);
 	return true;
 }
 
 boolean luxuryOutputBig(string theMessage) {
 	renderPrint(theMessage, "black");
+	logprint(theMessage);
 	return true;
 }
 
@@ -106,4 +108,5 @@ print();
 print("Printing a message in a large, monospaced font with colour.");
 luxuryoutputMono("> luxuryOutputBig(string, colour)");
 luxuryOutputBig("Example.", "green");
+
 }
